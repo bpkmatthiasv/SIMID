@@ -1161,7 +1161,7 @@ The creative must respond to `Player:fatalError` with `resolve`. After `resolve`
 See [[#workflow-error]]
 
 ### SIMID:Player:init ### {#simid-player-init}
-The purpose of the `SIMID:player:init` message is to transport data to assist with the interactive component initialization. See [[#workflow-initialization]] and [[#workflow-uninterupted-initialization]].
+The purpose of the `SIMID:Player:init` message is to transport data to assist with the interactive component initialization. See [[#workflow-initialization]] and [[#workflow-uninterupted-initialization]].
 
 The creative must respond to `Player:init` with either [[#simid-player-init-resolve]] or [[#simid-player-init-reject]]. 
 

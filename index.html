@@ -2541,7 +2541,7 @@ c-[il] { color: #000000 } /* Literal.Number.Integer.Long */
   <div class="head">
    <p data-fill-with="logo"></p>
    <h1 class="p-name no-ref" id="title">Secure Interactive Media Interface Definition (SIMID) </h1>
-   <h2 class="no-num no-toc no-ref heading settled" id="profile-and-date"><span class="content">Living Standard, <time class="dt-updated" datetime="2024-08-08">8 August 2024</time></span></h2>
+   <h2 class="no-num no-toc no-ref heading settled" id="profile-and-date"><span class="content">Living Standard, <time class="dt-updated" datetime="2024-08-28">28 August 2024</time></span></h2>
    <div data-fill-with="spec-metadata">
     <dl>
      <dt>This version:
@@ -2560,7 +2560,7 @@ c-[il] { color: #000000 } /* Literal.Number.Integer.Long */
    <div data-fill-with="warning"></div>
    <p class="copyright" data-fill-with="copyright"><a href="http://creativecommons.org/publicdomain/zero/1.0/" rel="license"><img alt="CC0" height="15" src="https://licensebuttons.net/p/zero/1.0/80x15.png" width="80"></a> To the extent possible under law, the editors have waived all copyright
 and related or neighboring rights to this work.
-In addition, as of 8 August 2024,
+In addition, as of 28 August 2024,
 the editors have made this specification available under the <a href="https://www.openwebfoundation.org/the-agreements/the-owf-1-0-agreements-granted-claims/owfa-1-0" rel="license">Open Web Foundation Agreement Version 1.0</a>,
 which is available at https://www.openwebfoundation.org/the-agreements/the-owf-1-0-agreements-granted-claims/owfa-1-0.
 Parts of this work may be from another specification document.  If so, those parts are instead covered by the license of that specification document. </p>
@@ -3523,7 +3523,7 @@ dynamic content within the ad unit is counter to the intentions of this spec.</p
     The creative must respond to <code>Player:fatalError</code> with <code>resolve</code>. After <code>resolve</code> arrives, the player should remove the iframe. 
    <p>See <a href="#workflow-error">§ 6.9.5 Ad Errors Out</a></p>
    <h4 class="heading settled" data-level="4.3.7" id="simid-player-init"><span class="secno">4.3.7. </span><span class="content">SIMID:Player:init</span><a class="self-link" href="#simid-player-init"></a></h4>
-    The purpose of the <code>SIMID:player:init</code> message is to transport data to assist with the interactive component initialization. See <a href="#workflow-initialization">§ 6.2 Typical Initialization WorkFlow</a> and <a href="#workflow-uninterupted-initialization">§ 6.4 Uninterrupted Initialization WorkFlow</a>. 
+    The purpose of the <code>SIMID:Player:init</code> message is to transport data to assist with the interactive component initialization. See <a href="#workflow-initialization">§ 6.2 Typical Initialization WorkFlow</a> and <a href="#workflow-uninterupted-initialization">§ 6.4 Uninterrupted Initialization WorkFlow</a>. 
    <p>The creative must respond to <code>Player:init</code> with either <a href="#simid-player-init-resolve">§ 4.3.7.1 resolve</a> or <a href="#simid-player-init-reject">§ 4.3.7.2 reject</a>.</p>
 <pre class="idl highlight def"><c- b>dictionary</c-> <dfn class="dfn-paneled idl-code" data-dfn-type="dictionary" data-export id="dictdef-messageargs⑥"><code><c- g>MessageArgs</c-></code></dfn> {
   <c- b>required</c-> <a data-link-type="idl-name" href="#dictdef-environmentdata" id="ref-for-dictdef-environmentdata"><c- n>EnvironmentData</c-></a> <dfn class="dfn-paneled idl-code" data-dfn-for="MessageArgs" data-dfn-type="dict-member" data-export data-type="EnvironmentData" id="dom-messageargs-environmentdata"><code><c- g>environmentData</c-></code></dfn>;
