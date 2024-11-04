@@ -2098,7 +2098,7 @@ The player should post `Player:init` as soon as the creative dispatches a `creat
 After the player gets a resolve message <a href="#diagram-player-init-normal">Normal Ad Initialization Sequence</a>, <span step><b>4</b></span>, it initializes media playback at its discretion <span step><b>5</b></span>. Once media rendering begins <span step><b>6</b></span>, the player reports impression <span step><b>7</b></span> and posts [[#simid-player-startCreative]] <span step><b>8</b></span>.
 
 <div diagram id="diagram-player-init-normal">
-  <p>Normal Ad Initilaization Sequence</p>
+  <p>Normal Ad Initialization Sequence</p>
   <img src="images/dgrm-init-normal.png" alt="Normal Ad Initialization Sequence"/>
   <ol dgrm-details>
     <li>Creative initializes the session.</li>

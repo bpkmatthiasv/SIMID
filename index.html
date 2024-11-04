@@ -1488,7 +1488,7 @@ Possible extra rowspan handling
 		}
 	}
 </style>
-  <meta content="Bikeshed version 6270e4735, updated Tue Aug 6 12:12:30 2024 -0700" name="generator">
+  <meta content="Bikeshed version 9e4e5f0f6, updated Mon Oct 28 14:51:59 2024 -0700" name="generator">
   <link href="https://interactiveadvertisingbureau.github.io/SIMID/" rel="canonical">
   <meta content="dark light" name="color-scheme">
 <style>
@@ -2541,7 +2541,7 @@ c-[il] { color: #000000 } /* Literal.Number.Integer.Long */
   <div class="head">
    <p data-fill-with="logo"></p>
    <h1 class="p-name no-ref" id="title">Secure Interactive Media Interface Definition (SIMID) </h1>
-   <h2 class="no-num no-toc no-ref heading settled" id="profile-and-date"><span class="content">Living Standard, <time class="dt-updated" datetime="2024-08-28">28 August 2024</time></span></h2>
+   <h2 class="no-num no-toc no-ref heading settled" id="profile-and-date"><span class="content">Living Standard, <time class="dt-updated" datetime="2024-11-04">4 November 2024</time></span></h2>
    <div data-fill-with="spec-metadata">
     <dl>
      <dt>This version:
@@ -2560,7 +2560,7 @@ c-[il] { color: #000000 } /* Literal.Number.Integer.Long */
    <div data-fill-with="warning"></div>
    <p class="copyright" data-fill-with="copyright"><a href="http://creativecommons.org/publicdomain/zero/1.0/" rel="license"><img alt="CC0" height="15" src="https://licensebuttons.net/p/zero/1.0/80x15.png" width="80"></a> To the extent possible under law, the editors have waived all copyright
 and related or neighboring rights to this work.
-In addition, as of 28 August 2024,
+In addition, as of 4 November 2024,
 the editors have made this specification available under the <a href="https://www.openwebfoundation.org/the-agreements/the-owf-1-0-agreements-granted-claims/owfa-1-0" rel="license">Open Web Foundation Agreement Version 1.0</a>,
 which is available at https://www.openwebfoundation.org/the-agreements/the-owf-1-0-agreements-granted-claims/owfa-1-0.
 Parts of this work may be from another specification document.  If so, those parts are instead covered by the license of that specification document. </p>
@@ -4281,7 +4281,7 @@ on to the next ad in the current ad pod).</p>
    <p>The player should post <code>Player:init</code> as soon as the creative dispatches a <code>createSession</code> message (section <a href="#protocol-establish-session">§ 8.4.1 Establishing a New Session</a>) <a href="#diagram-player-init-normal">Normal Ad Initialization Sequence</a>, <span steps><b>1</b><b>2</b></span>. SIMID creative code must be ready to process the <code>Player:init</code> message immediately <span step><b>3</b></span>).</p>
    <p>After the player gets a resolve message <a href="#diagram-player-init-normal">Normal Ad Initialization Sequence</a>, <span step><b>4</b></span>, it initializes media playback at its discretion <span step><b>5</b></span>. Once media rendering begins <span step><b>6</b></span>, the player reports impression <span step><b>7</b></span> and posts <a href="#simid-player-startCreative">§ 4.3.10 SIMID:Player:startCreative</a> <span step><b>8</b></span>.</p>
    <div diagram id="diagram-player-init-normal">
-    <p>Normal Ad Initilaization Sequence</p>
+    <p>Normal Ad Initialization Sequence</p>
      <img alt="Normal Ad Initialization Sequence" src="images/dgrm-init-normal.png"> 
     <ol dgrm-details>
      <li>Creative initializes the session.
